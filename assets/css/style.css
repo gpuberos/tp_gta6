@@ -1,0 +1,184 @@
+/* IMPORT Google Fonts Poppins */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@;400;600;700&display=swap');
+
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+iframe {
+    border: none;
+}
+
+
+/* GENERAL  */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: .938rem;
+    
+}
+
+p {
+    line-height: 1.75rem;
+    font-size: .938rem;
+    margin-top: 1.12rem;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    padding: 0 2.25rem;
+    background-color: #141618;
+    color: #fff;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 135px;
+}
+
+.navBar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.navBar ul li {
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.navBar ul li a {
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.navBar ul li a:hover {
+    color: #fcb900;
+}
+
+/* MAIN */
+
+.hero {
+    height: 28.75rem;
+    width: 100%;
+    background: no-repeat  url("../../assets/images/gta6-miami.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* POST */
+
+.post {
+    width: 80%;
+    margin: 0 auto;
+    padding: 5rem 2.25rem;
+}
+
+.post h1 {
+    font-size: 2.188rem;
+}
+
+.post p {
+    color: #777;
+}
+
+.post blockquote p, .post p strong, .post p a {
+    color: #303133;
+}
+
+.post blockquote {
+    margin: 2.25rem 0;
+    padding-left: 2.25rem;
+    border-left: 2px solid #fcb900;
+}
+
+.post blockquote p {
+    margin-top: 1.125rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.post p a:hover {
+    color: #fcb900;
+}
+
+.post .postInfo p {
+    margin-bottom: 1.875rem;
+    font-size: .75rem;
+    color: rgba(119, 119, 119, .65);
+}
+
+.post .postInfo p > span {
+    padding: 0 .875rem;
+}
+
+.postSource {
+    font-weight: 600;
+    text-align: right;
+}
+
+.postSource > strong > a {
+    font-weight: 600;
+    color: #fcb900;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 0 2.25rem;
+    color: #fff; 
+    background-color: #141618;
+    
+}
+
+.footerContainer {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer .siteInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 76px;
+}
+
+.siteInfo p a, .socialNetworks a {
+    color: #fff;
+}
+
+.copyright p {
+    margin-top: 0;
+    font-size: .813rem;
+}
+
+.socialNetworks ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.socialNetworks ul li a {
+    margin: 0 .563rem;
+}
