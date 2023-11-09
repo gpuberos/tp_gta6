@@ -101,6 +101,10 @@ header {
     color: #777;
 }
 
+.post iframe {
+    width: 100%;
+}
+
 .post blockquote p, .post p strong, .post p a {
     color: #303133;
 }
@@ -181,4 +185,8 @@ footer .siteInfo {
 
 .socialNetworks ul li a {
     margin: 0 .563rem;
+}
+
+.socialNetworks ul li a:hover {
+    color: #fcb900;
 }
