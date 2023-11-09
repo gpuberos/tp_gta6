@@ -87,7 +87,7 @@ header {
 
 /* POST */
 
-.post {
+.postContainer {
     width: 80%;
     margin: 0 auto;
     padding: 5rem 2.25rem;
@@ -143,6 +143,67 @@ header {
 .postSource > strong > a {
     font-weight: 600;
     color: #fcb900;
+}
+
+/* Post Share */
+
+.postShare {
+    padding-bottom: 72px;
+    border-top: 1px solid #ededed;
+}
+
+.postShareContainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 2.25rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.postShare ul {
+    margin: 0 auto;
+    padding: 30px 0;
+    text-align: center;
+    list-style: none;
+}
+
+.postShare ul li {
+    display: inline-block;
+}
+
+.postShare ul li a {
+    margin: 0 6px;
+}
+
+.postShare a {
+    color: #303133;
+}
+
+.postShare a[title="Facebook"]:hover {
+    color: #020381
+}
+
+.postShare a[title="Twitter"]:hover {
+    color: #8ed1fc;
+}
+
+.postShare a[title="LinkedIn"]:hover {
+    color: #0693e3;
+}
+
+.postShare a[title="WhatsApp"]:hover {
+    color: #00d084;
+}
+
+.postShare a[title="Xing"]:hover {
+    color: #0693e3;
+}
+
+.postShare a[title="e-Mail"]:hover {
+    color: #0693e3;
+}
+
+.postShare a[title="Pinterest"]:hover {
+    color: #cf2e2e;
 }
 
 /* FOOTER */
