@@ -206,6 +206,47 @@ header {
     color: #cf2e2e;
 }
 
+.bottomNav {
+    font-size: .75rem;
+    background: #f7f7f7;
+}
+
+.bottomNav nav {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2.25rem;
+}
+
+.bottomNav nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.bottomNav nav ul li a {
+    color: #303133;
+}
+
+.bottomNav nav ul li a:hover {
+    color: #fcb900;
+}
+
+.bottomNav nav ul li a span {
+    font-size: .75rem;
+    font-weight: 400;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+}
+
+.bottomNav nav ul li a span:first-child {
+    padding-right: .75rem;
+}
+
+.bottomNav nav ul li a span:last-child {
+    padding-left: .75rem;
+}
+
 /* FOOTER */
 
 footer {
