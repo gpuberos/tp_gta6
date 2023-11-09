@@ -21,8 +21,7 @@ iframe {
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: .938rem;
-    
+    font-size: .938rem; 
 }
 
 p {
@@ -39,6 +38,7 @@ a {
 /* HEADER */
 
 header {
+    padding: 0 2.25rem 0 2.25rem;
     padding: 0 2.25rem;
     background-color: #141618;
     color: #fff;
@@ -167,8 +167,12 @@ footer .siteInfo {
     min-height: 76px;
 }
 
-.siteInfo p a, .socialNetworks a {
+footer a {
     color: #fff;
+}
+
+footer a:hover {
+    color: #fcb900;
 }
 
 .copyright p {
@@ -185,8 +189,4 @@ footer .siteInfo {
 
 .socialNetworks ul li a {
     margin: 0 .563rem;
-}
-
-.socialNetworks ul li a:hover {
-    color: #fcb900;
 }
